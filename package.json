@@ -1,8 +1,8 @@
 {
-  "name": "snapguidist",
-  "version": "3.1.2",
-  "description": "Snapshot testing for React Styleguidist",
-  "repository": "https://github.com/styleguidist/snapguidist.git",
+  "name": "@pzastavnitsk/htmlguidist",
+  "version": "1.0.0",
+  "description": "Snapshot testing for React Styleguidist + preview of generated html",
+  "repository": "https://github.com/zastavnitskiy/snapguidist.git",
   "main": "./lib/index.js",
   "files": [
     "lib"
@@ -19,7 +19,8 @@
   },
   "authors": [
     "Michele Bertoli",
-    "Matteo Ronchi"
+    "Matteo Ronchi",
+    "Pavel Zastavnitskiy"
   ],
   "license": "MIT",
   "devDependencies": {

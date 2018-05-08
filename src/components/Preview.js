@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Preview from 'react-styleguidist/lib/rsg-components/Preview/Preview'
+import Code from './Code'
 import api from '../api'
 import Test from './Test'
 import renderHTML from '../html-renderer'
@@ -57,7 +58,9 @@ class SnapguidistPreview extends Component {
     return (
       <div>
         <Preview {...this.props} evalInContext={this.evalInContext} />
-        <pre>Hello: {this.state.html}</pre>
+        <Code
+          value={this.state.html}
+        />
         <Test
           isFetching={this.state.isFetching}
           onClick={() => this.runTest(true)}
