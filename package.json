@@ -1,5 +1,5 @@
 {
-  "name": "@pzastavnitsk/htmlguidist",
+  "name": "@zastavnitskiy/htmlguidist",
   "version": "1.0.0",
   "description": "Snapshot testing for React Styleguidist + preview of generated html",
   "repository": "https://github.com/zastavnitskiy/snapguidist.git",
